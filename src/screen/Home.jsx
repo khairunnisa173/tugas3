@@ -1,5 +1,5 @@
 import react,{useState,useEffect} from 'react';
-import {Text, View, TouchableOpacity, Image, Scroll, FlatList, ScrollView} from 'react-native';
+import {Text, View, TouchableOpacity, ScrollView} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
@@ -54,7 +54,7 @@ const Home = () => {
                     position: 'absolute',
                     right: 10,
                   }}>
-                  <MaterialCommunityIcons name="home" size={25}/>
+                  <MaterialCommunityIcons name="heart-outline" size={25}/>
                   </View>
                   <Text style={{color: 'black', fontWeight: 'bold'}}>
                    {data.doa}

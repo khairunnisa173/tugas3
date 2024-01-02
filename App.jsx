@@ -26,7 +26,7 @@ const Tabs = () => {
       <Tab.Screen name='Search'  
       options={{ headerShown: false,
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="magnify" color={color} size={size} />
+            <MaterialCommunityIcons name="heart-outline" color={color} size={size} />
           ),
         }} 
         component={DetailDoa} />
